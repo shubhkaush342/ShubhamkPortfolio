@@ -1,13 +1,89 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Catamaran', sans-serif;
+  font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #0dcaf0; */
+  background-color: #212529;
+  color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar-brand{
+  font-family: 'Silkscreen';
+}
+.row{
+  justify-content: center;
+  text-align: center;
+}
+.rt{
+  text-align: left;
+}
+.img-fluid{
+  max-width: 70%;
+}
+.list-group-item{
+  text-align: center;
+}
+.g-2 div{
+  text-align: justify;
+}
+label{
+  text-align: left;
+}
+.bgx{
+ overflow: hidden;
+ position: relative;
+}
+
+.bgx img{
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.bgx-text{
+  position: relative;
+}
+.card{
+  width: 18rem;
+    display: inline-flex;
+    margin: 1rem;
+}
+#contact h2{
+  text-decoration: underline;
+}
+.icons i{
+  font-size: 2rem;
+  margin: 1rem;
+}
+.icons{
+  max-width: 15rem;
+  margin: 0% 30%;
+}
+.icons i :hover{
+  font-size: 2rem;
+  margin: 1rem;
+}
+.arrow {
+  float: right;
+}
+.arrow i{
+  font-size: 2rem;
+  color: white;
+}
+.arrow button{
+  background: none;
+  border-style: none;
+}
+
+/* typewriter effect */
+.Typewriter{
+  font-size: 1.75rem;
 }
