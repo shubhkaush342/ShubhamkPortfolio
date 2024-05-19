@@ -4,7 +4,6 @@ body {
   font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #0dcaf0; */
   background-color: #212529;
   color: aliceblue;
 }
@@ -16,15 +15,20 @@ code {
 .navbar-brand{
   font-family: 'Silkscreen';
 }
+
+.navbar-brand:hover{
+  cursor: pointer;
+}
 .row{
-  justify-content: center;
   text-align: center;
+  justify-content: center;
 }
 .rt{
   text-align: left;
 }
 .img-fluid{
   max-width: 70%;
+  height: 110%;
 }
 .list-group-item{
   text-align: center;
@@ -38,6 +42,8 @@ label{
 .bgx{
  overflow: hidden;
  position: relative;
+ border-radius: 0.75rem;
+ border: 0.1rem solid black;
 }
 
 .bgx img{
@@ -58,6 +64,9 @@ label{
 }
 #contact h2{
   text-decoration: underline;
+}
+#contact{
+  background-color: lavender;
 }
 .icons i{
   font-size: 2rem;
@@ -86,4 +95,22 @@ label{
 /* typewriter effect */
 .Typewriter{
   font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-wrap: break-word;
+  }
+  .icons{
+    margin: 0%;
+  }
+  #contact{
+    text-align:unset;
+  }
+}
+#about{
+  background-color: lightgrey;
+}
+#projects{
+  background-color: navy;
 }

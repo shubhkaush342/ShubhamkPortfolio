@@ -8,7 +8,7 @@ function About() {
     const reacts= 50;
   return (
     <>
-      <div className="container bg-light text-dark mb-3 pb-3" id="about">
+      <div className="container bg-gradient text-dark mb-4 pb-3" id="about">
         <div className="row">
           <div className="col-6">
             <div className="container abt-1">
@@ -58,21 +58,21 @@ function About() {
           </div>
           <div className="mt-4 col-6 rt">
             <h2 className="text-decoration-underline">About Me</h2>
-            Previously i have worked as an Associate Software Developer at
-            Fresche Solutions. Currently i am looking forward to working in Web
+            I have previously worked as an Associate Software Developer at
+            Fresche Solutions . Currently I am looking forward to secure a role in Web
             development as I have always been passionate about it. I am also
             learning different JavaScript frameworks. Web development
             calls to all my passions as it incorporates creativity and problem
-            solving , something i enjoy immensely.
+            solving , something I enjoy immensely.
             <hr className="border border-primary border-1 opacity-50"></hr>
-            Some of the other technologies i have worked /familiar with are as
+            Some of the other technologies I have worked /familiar with are as
             follows.
             <ul className="list-group mt-2">
               <li className="list-group-item text-info  bg-dark">JavaScript</li>
               <li className="list-group-item text-info  bg-dark">HTML</li>
               <li className="list-group-item text-info  bg-dark">CSS</li>
               <li className="list-group-item text-dark  bg-info">React JS</li>
-              <li className="list-group-item text-info bg-dark">C++</li>
+              <li className="list-group-item text-info  bg-dark">C++</li>
               <li className="list-group-item text-info  bg-dark">SQL</li>
               <li className="list-group-item text-info  bg-dark">COBOL</li>
             </ul>
@@ -80,22 +80,20 @@ function About() {
         </div>
       </div>
       <section id="experience" className=" m-4 text-wrap">
-      <div className="p-4 mt-4 bgx">
-    <img src="./bgx.jpg" alt="office-bg"/>
+      <div className="p-4 mt-4 bgx bg-gradient">
+    <img src="https://iili.io/blEfpa.md.jpg" alt="office-bg"/>
       <h2 className="text-center fs-1 bgx-text fw-bold">Work Experience</h2>
       <h3 className="bgx-text fw-bold">Fresche Solutions</h3>
       <h4 className="bgx-text fw-semibold text-decoration-underline">Intern</h4>
       <h4 className="bgx-text">September 2021 - March 2022</h4>
-      <p className="bgx-text">As an Intern my responsibilities included testing and development of code, creating SQL queries and preparing
-        documentation.</p>
+      <p className="bgx-text">As an Intern my responsibilities included testing and development of code, creating SQL queries and preparing documentation.</p>
       <h4 className="bgx-text fw-semibold text-decoration-underline">Associate Software Developer</h4>
       <h4 className="bgx-text">April 2022 - June 2022</h4>
       <p className="bgx-text"></p>
       <ul className="bgx-text">
         <li>Analyzed and performed maintainence of existing processes.</li>
         <li>Coding and testing for enhancement of applications.</li>
-        <li>Created and deployed a new process according to business requirements dealing with large number of records.
-        </li>
+        <li>Created and deployed a new process in accordance with business requirements for processing new insurance applications.</li>
       </ul>
         </div>
       </section>

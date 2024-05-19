@@ -8,16 +8,15 @@ function Projects() {
             behaviour:"smooth",
         })
     }
-
     const sendEmail =() =>{
       
     }
   return (
     <>
-      <section id="projects" className="text-dark bg-primary m-4">
-        <h2 className="text-center text-light">Projects</h2>
-        <div className="card">
-          <img src="./Calculator.png" className="card-img-top" alt="..." />
+      <section id="projects" className="text-light bg-gradient opacity-80 m-4">
+        <h2 className="text-center pt-4">Projects</h2>
+        <div className="card pt-4 bg-dark bg-gradient">
+          <img src="https://iili.io/blzayP.md.png" alt="blzayP.md.png" className="card-img-top"/>
           <div className="card-body">
             <p className="card-title text-center">
               Calculator
@@ -27,7 +26,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="card">
+        {/* <div className="card">
           <img src="./Calculator.png" className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text">
@@ -52,11 +51,11 @@ function Projects() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-          </div>
-        </div>
+          </div> 
+        </div> */}
       </section>
       <section id="contact" className="m-4 p-4">
-        <div className="row bg-light text-primary">
+        <div className="row bg-gradient text-primary">
           <form className="col-6 mt-4 p-4" onSubmit={sendEmail()}>
             <h2>Leave a message</h2>
             <div className="mb-3">
